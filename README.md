@@ -24,7 +24,7 @@ Once we have these objects, one can employ techniques to solve various pressing 
 You're free to choose any framework of any target programming language and can write the test-runner in any programming language as long as it generates output in the given format. For example, you can choose to write a test-runner in python that can identify test-cases written using TestNG framework of a java repository. Preferred target languages: **Python, Java, C#, GoLang**
 
 
-**Discovery Output:**
+### Discovery Output:
 ```
 {
   "testCases": [
@@ -58,7 +58,7 @@ You're free to choose any framework of any target programming language and can w
 }
 ```
 
-**Execution Output:**
+### Execution Output:
 ```
 {
   "testCases": [
