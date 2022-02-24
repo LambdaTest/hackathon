@@ -6,17 +6,20 @@ Create **`test-runners`**. Each test-runner should have the following **2 functi
 2. It should be able to run the underlying tests for a given array (one or more; subset) of testObjects generated in #1. In simple words, write a **`testExecution`** function that can execute tests given their identifiers and output execution details in the format [given here](#execution-output).
 
 ## What are Test-runners? 📖 
-Test-runners are piece of software that enable users to run the tests that they have written in their code bases. In practice, in almost all programming languages, there are frameworks defined for writing the test-cases. For example, in Javascript world, there are test frameworks like `ava`, `jasmine`, `jest`, `mocha` and many others. 
+**Test-runners** are a piece of software that enables users to run tests that they have written in their codebases. 
 <br/>
 
-Test-runners are an extension (or wrappers) of these test frameworks such that they have more controls on the underlying framework's functions, and at the same time, they make working with the underlying framework more user-friendly.
+In practice, in almost all programming languages, there are frameworks defined for writing test cases. For example, in the Javascript world, there are test frameworks like `jest`, `mocha`, `ava`, `jasmine`, and many others. 
+<br/>
+
+**Test-runners** are an extension (or wrappers) of these test frameworks such that they have more controls on the underlying framework's functions, and at the same time, they make working with the underlying framework more user-friendly.
 
 ## Why should we make Test-runners? 💡
 With the help of test-runners, we **aim to transform** the test-cases (as well as test-suites) written by a user inside a codebase (i.e. raw-text written in some programming language) into an object that can be made sense of independently. Once these objects are generated, test-runners should provide the ability to run the corresponding test-case for the given object and record its status, stats, metrics and various insights that are useful. 
 <br/>
 
 Once we have these objects, one can employ techniques to solve various pressing problems in the world of test-case management and left-shifting the test feedback loop, for example:
-- Selecting a subset of these objects based on certain algorithms for a commit and running only this smaller subset to give >90% confidence of stability yet saving time in running all test-cases.
+- Selecting and running only a small subset of these objects that matter based on the latest code changes and save time that otherwise might have been wasted in running all test-cases everytime for every commit.
 - Selecting a subset of these objects and running them for a finite number of repetitions to test for their flakiness,
 - Overall testing health of your codebase, etc
 
@@ -95,6 +98,6 @@ You're free to choose any framework of any target programming language and can w
 ```
 
 ## Prizes 🥳
-- Top 10 teams who successfully complete the above challenge would be given gift vouchers of $200 each. 
-- Top 3 team members would be eligible for a 2 month paid internship focused on Open Source tech at Lambdatest Inc.
+- Top 10 teams who complete the above challenge successfully would be given gift vouchers of $200 each. 
+- Top 3 team members would be eligible for a two month paid internship focused on Open Source tech at Lambdatest Inc.
 
