@@ -5,6 +5,8 @@ Create **`test-runners`**. Each test-runner should have the following **2 functi
 1. It should be able to identify and pick **all test-cases** for a given repository. In simple words, write a **`testDiscovery`** function that can extract all test-cases for a given repository and store the details in a json file in a format [given below](#discovery-output).
 2. It should be able to run the underlying tests for a given array (one or more; subset) of testObjects generated in #1. In simple words, write a **`testExecution`** function that can execute tests given their identifiers and output execution details in the format [given here](#execution-output).
 
+<br/>
+
 ## What are Test-runners? 📖 
 **Test-runners** are a piece of software that enables users to run tests that they have written in their codebases. 
 <br/>
@@ -13,6 +15,8 @@ In practice, in almost all programming languages, there are frameworks defined f
 <br/>
 
 **Test-runners** are an extension (or wrappers) of these test frameworks such that they have more controls on the underlying framework's functions, and at the same time, they make working with the underlying framework more user-friendly.
+
+<br/>
 
 ## Why should we make Test-runners? 💡
 With the help of test-runners, we **aim to transform** the test-cases (as well as test-suites) written by a user inside a codebase (i.e. raw-text written in some programming language) into an object that can be made sense of independently. Once these objects are generated, test-runners should provide the ability to run the corresponding test-case for the given object and record its status, stats, metrics and various insights that are useful. 
@@ -26,6 +30,7 @@ Once we have these objects, one can employ techniques to solve various pressing 
 ## What is expected from me in this challenge? 🔥 
 You're free to choose any framework of any target programming language and can write the test-runner in any programming language as long as it generates output in the given format. For example, you can choose to write a test-runner in python that can identify test-cases written using TestNG framework of a java repository. Preferred target languages: **Python, Java, C#, GoLang**
 
+<br/>
 
 ### Discovery Output:
 ```
@@ -96,6 +101,8 @@ You're free to choose any framework of any target programming language and can w
   ]
 }
 ```
+
+<br/>
 
 ## Prizes 🥳
 - Top 10 teams who complete the above challenge successfully would be given gift vouchers of $200 each. 
