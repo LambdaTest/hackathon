@@ -2,7 +2,7 @@
 
 ## Problem Statement 😎
 Create `test-runners`. Each test-runner should have the following 2 functionalities:
-1. It should be able to identify and pick all test-cases for a given repository. In simple words, write a `testDiscovery` function that can extract all test-cases for a given repository and store it in a json file in a given format.
+1. It should be able to identify and pick all test-cases for a given repository. In simple words, write a `testDiscovery` function that can extract all test-cases for a given repository and store it in a json file in a [given format](#discovery-output).
 2. It should be able to run the underlying tests for given array (one or more; subset) of testObjects generated in #1. In simple words, write a `testExecution` function that can execute tests given their identifiers.
 
 ## What are Test-runners? 📖 
