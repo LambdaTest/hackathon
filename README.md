@@ -1,9 +1,9 @@
 # Lambdatest Hackathon Challenge
 
 ## Problem Statement 😎
-Create `test-runners`. Each test-runner should have the following 2 functionalities:
-1. It should be able to identify and pick all test-cases for a given repository. In simple words, write a `testDiscovery` function that can extract all test-cases for a given repository and store it in a json file in a [given format](#discovery-output).
-2. It should be able to run the underlying tests for given array (one or more; subset) of testObjects generated in #1. In simple words, write a `testExecution` function that can execute tests given their identifiers and provide execution details in the [given format](#execution-output).
+Create **`test-runners`**. Each test-runner should have the following **2 functionalities**:
+1. It should be able to identify and pick **all test-cases** for a given repository. In simple words, write a **`testDiscovery`** function that can extract all test-cases for a given repository and store the details in a json file in a format [given below](#discovery-output).
+2. It should be able to run the underlying tests for a given array (one or more; subset) of testObjects generated in #1. In simple words, write a **`testExecution`** function that can execute tests given their identifiers and output execution details in the format [given here](#execution-output).
 
 ## What are Test-runners? 📖 
 Test-runners are piece of software that enable users to run the tests that they have written in their code bases. In practice, in almost all programming languages, there are frameworks defined for writing the test-cases. For example, in Javascript world, there are test frameworks like `ava`, `jasmine`, `jest`, `mocha` and many others. 
