@@ -87,3 +87,8 @@ Execution Output:
   ]
 }
 ```
+
+## Prizes 🥳
+- Top 10 teams who successfully complete the above challenge would be given gift vouchers of $200 each. 
+- Top 3 team members would be eligible for a 2 month paid internship focused on Open Source tech at Lambdatest Inc.
+
