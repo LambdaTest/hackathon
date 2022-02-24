@@ -9,17 +9,18 @@ Create `test-runners`. Each test-runner should have the following 2 functionalit
 Test-runners are piece of software that enable users to run the tests that they have written in their code bases. In practice, in almost all programming languages, there are frameworks defined for writing the test-cases. For example, in Javascript world, there are test frameworks like `ava`, `jasmine`, `jest`, `mocha` and many others. <br/>
 Test-runners are an extension (or wrappers) of these test frameworks such that they have more controls on the underlying framework's functions, and at the same time, they make working with the underlying framework more user-friendly.
 
-## Rationale
-With the help of test-runners, we aim to transform the test-cases (as well as test-suites) written by a user inside a codebase (i.e. raw-text written in some programming language) into an object that can be made sense of independently. Once these objects are generated, test-runners should provide the ability to run the corresponding test-case for the given object and record its status, stats, metrics and various insights that are useful. Once we have these objects, one can employ techniques to solve various pressing problems in the world of test-case management and left-shifting the test feedback loop, for example:
-- selecting a subset of these objects and running them for a finite number of repetitions to test for their flakiness,
-- selecting a subset of these objects based on certain algorithms for a commit and running only this smaller subset to give >90% confidence of stability yet saving time in running all test-cases,
-- overall testing health of your codebase, etc
+## Why should we make Test-runners? 💡
+With the help of test-runners, we **aim to transform** the test-cases (as well as test-suites) written by a user inside a codebase (i.e. raw-text written in some programming language) into an object that can be made sense of independently. Once these objects are generated, test-runners should provide the ability to run the corresponding test-case for the given object and record its status, stats, metrics and various insights that are useful. <br/>
+Once we have these objects, one can employ techniques to solve various pressing problems in the world of test-case management and left-shifting the test feedback loop, for example:
+- Selecting a subset of these objects based on certain algorithms for a commit and running only this smaller subset to give >90% confidence of stability yet saving time in running all test-cases.
+- Selecting a subset of these objects and running them for a finite number of repetitions to test for their flakiness,
+- Overall testing health of your codebase, etc
 
-## Constraints
-You're free to choose any framework of any target programming language and can write the test-runner in any programming language as long as it generates output in the given format. For example, you can choose to write a test-runner in python that can identify test-cases written using TestNG framework of a java repository. Preferred target languages: Python, Java, C#, GoLang
+## What is expected from me in this challenge? 🔥 
+You're free to choose any framework of any target programming language and can write the test-runner in any programming language as long as it generates output in the given format. For example, you can choose to write a test-runner in python that can identify test-cases written using TestNG framework of a java repository. Preferred target languages: **Python, Java, C#, GoLang**
 
 
-Discovery Output:
+**Discovery Output:**
 ```
 {
   "testCases": [
@@ -53,7 +54,7 @@ Discovery Output:
 }
 ```
 
-Execution Output:
+**Execution Output:**
 ```
 {
   "testCases": [
