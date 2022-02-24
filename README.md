@@ -30,7 +30,14 @@ Once we have these objects, one can employ techniques to solve various pressing 
 <br/>
 
 ## What is expected from me in this challenge? 🔥 
-You're free to choose any framework of any target programming language and can write the test-runner in any programming language as long as it generates output in the given format. For example, you can choose to write a test-runner in python that can identify test-cases written using TestNG framework of a java repository. Preferred target languages: **Python, Java, C#, GoLang**
+You have to create a **test-runners**. You're free to choose any framework of any target programming language and can write the test-runner in any programming language as long as it generates output in the given format. 
+<br/>
+For example, you can choose to write a test-runner in python that can identify test-cases written using TestNG framework of a java repository. Preferred target languages: **Python, Java, C#, GoLang**.
+<br/>
+Your **test-runner** needs to have the following two components:
+1. A **testDiscovery** function that can extract all test-cases for a given repository and store the details in a json file in a format [given below](#discovery-output).
+2. A **testExecution** function that can execute tests given their identifiers and output execution details in the format [given here](#execution-output).
+
 
 <br/>
 
