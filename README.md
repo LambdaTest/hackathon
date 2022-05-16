@@ -113,7 +113,4 @@ Your **test-runner** needs to have the following two components:
 
 <br/>
 
-## Prizes 🥳
-- Top 10 teams who complete the above challenge successfully would be given gift vouchers of $200 each. 
-- Top 3 team members would be eligible for a two month paid internship focused on Open Source tech at Lambdatest Inc.
 
